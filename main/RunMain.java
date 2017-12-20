@@ -7,17 +7,9 @@ import tool.PrintToScreen;
 
 public class RunMain {
 
-	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		WorkerThread workerThread =new WorkerThread();
+		WorkerThread workerThread = new WorkerThread();
 		new Thread(workerThread).start();
 	}
-	
-	
-
-	
-	
-	
 
 }
