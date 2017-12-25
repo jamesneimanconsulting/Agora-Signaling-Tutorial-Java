@@ -4,12 +4,10 @@ import java.util.ArrayList;
 
 public class Constant {
 	public static int CURRENT_APPID = 0;
-	//public static String APP_ID="ff6cbad4f2e74d5185340699a4e6b6ec";
-	//public static String APP_ID="30ca5ce672ef4f4cbce4616f714e0c44";	
-	public static ArrayList <String>APP_IDS = new ArrayList<String>();
+	public static ArrayList <String>app_ids = new ArrayList<String>();
 	static {
-		APP_IDS.add("ff6cbad4f2e74d5185340699a4e6b6ec");
-		APP_IDS.add("30ca5ce672ef4f4cbce4616f714e0c44");
+		//app_ids.add("Your_appId");
+		//app_ids.add("Your_appId");
 	}
 	public static String COMMAND_LOGOUT="logout";
 	public static String COMMAND_LEAVE_CHART="leave";
