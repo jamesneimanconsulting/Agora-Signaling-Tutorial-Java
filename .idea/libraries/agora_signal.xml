@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="agora_signal">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/agora_signal.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-codec-1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/grizzly-framework-2.3.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/grizzly-http-2.3.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/grizzly-http-server-2.3.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gson-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hamcrest-core-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/httpclient-4.5.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/httpcore-4.4.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.websocket-api-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-simple-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-simple-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tyrus-client-1.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tyrus-container-grizzly-client-1.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tyrus-core-1.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tyrus-spi-1.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tyrus-standalone-client-jdk-1.13.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/hamcrest-core-1.1.jar!/" />
+    </SOURCES>
+  </library>
+</component>
