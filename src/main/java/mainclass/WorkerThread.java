@@ -1,3 +1,5 @@
+package mainclass;
+
 import io.agora.signal.Signal;
 import io.agora.signal.Signal.LoginSession;
 import io.agora.signal.Signal.LoginSession.Channel;
