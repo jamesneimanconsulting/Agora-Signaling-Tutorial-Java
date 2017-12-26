@@ -31,8 +31,7 @@ Then select the Constant.java file in your test project, add appId to the set ap
 `` `java
 app_ids.add ("Your appId");
 `` `
-* Step 2: Download the Java version Agora Signaling SDK in [Agora.io SDK] (https://docs.agora.io/cn/2.0.2/download), unzip the jar package under lib folder And libs-dep under the jar package copied to the project's lib file, lib and src folder level.
-
+* Step 2: Download the Java Agora Signaling SDK at [Agora.io SDK] (https://docs.agora.io/cn/2.0.2/download), create the lib folder at the root of the sample project, after unpacking the file, copy the jar package under the Lib folder and the jar package under the libs-dep to the Lib file of this project.
 * Step 3: Add the following code in the dependency property of the build.gradle file in the root directory of the project:
 
 `` `java
