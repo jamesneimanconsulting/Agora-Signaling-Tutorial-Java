@@ -1,6 +1,6 @@
 # Agora Signaling Tutorial (JAVA)
 
-* 其他语言版本: [简体中文] (README.md) *
+*其他语言版本： [简体中文](README.md)*
  
 This open source sample project demonstrates how to quickly integrate the Agora Signaling SDK for a simple Signal multi-instance or Signal single-instance JAVA chat application.
 
@@ -31,7 +31,7 @@ Then select the Constant.java file in your test project, add appId to the set ap
 `` `java
 app_ids.add ("Your appId");
 `` `
-* Step 2: Download the Java version SDK in [Agora.io SDK] (https://docs.agora.io/cn/2.0.2/download), unzip the jar package under lib folder And libs-dep under the jar package copied to the project's lib file, lib and src folder level.
+* Step 2: Download the Java version Agora Signaling SDK in [Agora.io SDK] (https://docs.agora.io/cn/2.0.2/download), unzip the jar package under lib folder And libs-dep under the jar package copied to the project's lib file, lib and src folder level.
 
 * Step 3: Add the following code in the dependency property of the build.gradle file in the root directory of the project:
 

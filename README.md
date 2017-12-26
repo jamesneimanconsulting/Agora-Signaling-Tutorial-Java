@@ -27,7 +27,7 @@ Agora 信令 SDK 支持 Android/IOS/Linux/MacOS/Web/Windows 等多个平台，�
 
 ## 集成方式&运行示例程序
 * 第一步：在 [Agora.io 注册](https://dashboard.agora.io/cn/signup/) 注册账号，并创建自己的测试项目，获取到 appId
-然后选择测试项目里的Constant.java文件，将 appId 添加到集合 app_ids 中，如果要实现多实例，你就要添加多个 appId 。
+然后选择测试项目里的 Constant.java 文件，将 appId 添加到集合 app_ids 中，如果要实现多实例，你就要添加多个 appId 。
 ``` java
 app_ids.add(“Your appId”);
 ```
