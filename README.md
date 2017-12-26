@@ -33,12 +33,7 @@ app_ids.add(“Your appId”);
 ```
 * 第二步：在 [Agora.io SDK](https://docs.agora.io/cn/2.0.2/download) 下载 Java 版信令 SDK，在示例项目根目录创建lib文件夹，lib 和 src 文件夹平级，解压后将其中的 lib 文件夹下的 jar 包和 libs-dep 下的 jar 包复制到本项目的 lib 文件下。
 
-* 第三步：在项目的根目录的 build.gradle 文件中的依赖属性中加入以下代码：
-
-``` java
- compile fileTree(dir: 'lib', include: ['*.jar'])
-```
-* 第四步：将示例项目以 gradle 项目导入开发工具中。
+* 第三步：将示例项目以 gradle 项目导入开发工具中。
 ## 运行环境
 
 * eclipse 或者 IntelliJ IDEA
