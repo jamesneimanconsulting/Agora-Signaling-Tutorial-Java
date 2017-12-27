@@ -2,11 +2,11 @@
 
 *其他语言版本： [简体中文](README.md)*
  
-This open source sample project demonstrates how to quickly integrate the Agora Signaling SDK for a simple Signal multi-instance or Signal single-instance JAVA chat application.
+This open source sample project demonstrates how to quickly integrate the Agora Signaling SDK for a simple multi-instance Signaling or single-instance Signaling JAVA chat application.
 
 The following features are included in this sample project:
 
-- Create multiple Signal instances or single Signal instances (the example project has two entries, SingleSignalObjectMain is Signal single instance entry, and MulteSignalObjectMain2 is Signal multi-instance entry)
+- Create multiple Signaling instances or single Signaling instances (the example project has two entries, SingleSignalObjectMain is the entrance of Signaling single instance and MulteSignalObjectMain2 is the entrance of Signaling multi-instance)
 - Create a target account and log in
 - Select chat mode (1. Peer-to-peer private chat 2. Into the channel, multi-person chat group to chat)
 - Type in the account name or channel name of the other party (decided by the chat mode of the previous step)
@@ -27,7 +27,7 @@ Agora Signaling SDK supports multiple platforms such as Android/IOS/Linux/MacOS/
 
 ## Integration mode & run the sample program
 * Step 1: Register an account at [Agora.io] (https://dashboard.agora.io/cn/signup/) and create your own test project to get the appId
-Then select the Constant.java file in your test project, add appId to the set app_ids, and if you want to implement multiple instances, you will need to add more than one appId.
+Then select the Constant.java file in your test project, add appId to the set app_ids and if you want to implement multiple instances, you will need to add more than one appId.
 `` `java
 app_ids.add ("Your appId");
 `` `

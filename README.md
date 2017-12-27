@@ -2,11 +2,11 @@
 
 *Read this in other languages: [English](README.en.md)*
  
-这个开源示例项目演示了如何快速集成 Agora 信令 SDK 实现一个简单的多个 Signal 实例或者单个 Signal 实例 JAVA 聊天应用。
+这个开源示例项目演示了如何快速集成 Agora 信令 SDK 实现一个简单的多个 Signaling 实例或者单个 Signaling 实例 JAVA 聊天应用。
 
 在这个示例项目中包含了以下功能：
 
-- 创建多个 Signal 实例或者单个 Signal 实例（该示例项目有两个入口，SingleSignalObjectMain 为 Signal 单实例入口，MulteSignalObjectMain2 为 Signal 多实例入口）
+- 创建多个 Signaling 实例或者单个 Signaling 实例（该示例项目有两个入口，SingleSignalObjectMain 为 Signaling 单实例入口，MulteSignalObjectMain2 为 Signaling 多实例入口）
 - 创建目标账户账户，并进行登录 
 - 选择聊天方式（1.点对点双人私聊  2.进入频道，多人聊天组进行聊天）
 - 键入对方账户姓名或者频道名（由上一步的聊天方式选择决定）
@@ -31,7 +31,7 @@ Agora 信令 SDK 支持 Android/IOS/Linux/MacOS/Web/Windows 等多个平台，�
 ``` java
 app_ids.add(“Your appId”);
 ```
-* 第二步：在 [Agora.io SDK](https://docs.agora.io/cn/2.0.2/download) 下载 Java 版信令 SDK，在示例项目根目录创建lib文件夹，lib 和 src 文件夹平级，解压后将其中的 lib 文件夹下的 jar 包和 libs-dep 下的 jar 包复制到本项目的 lib 文件下。
+* 第二步：在 [Agora.io SDK](https://docs.agora.io/cn/2.0.2/download) 下载 Java 版信令 SDK，在示例项目根目录创建 lib 文件夹，lib 和 src 文件夹平级，解压后将其中的 lib 文件夹下的 jar 包和 libs-dep 下的 jar 包复制到本项目的 lib 文件下。
 
 * 第三步：将示例项目以 gradle 项目导入开发工具中。
 ## 运行环境
