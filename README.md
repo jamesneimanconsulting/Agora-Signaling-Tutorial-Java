@@ -26,14 +26,14 @@ Agora 信令 SDK 支持 Android/IOS/Linux/MacOS/Web/Windows 等多个平台，�
 
 
 ## 集成方式&运行示例程序
-* 第一步：在 [Agora.io 注册](https://dashboard.agora.io/cn/signup/) 注册账号，并创建自己的测试项目，获取到 appId
-然后选择测试项目里的 Constant.java 文件，将 appId 添加到集合 app_ids 中，如果要实现多实例，你就要添加多个 appId 。
+* 首先在 [Agora.io 注册](https://dashboard.agora.io/cn/signup/) 注册账号，并创建自己的测试项目，获取到 appId
+选择到测试项目里的 Constant.java 文件，将 appId 添加到集合 app_ids 中，如果要实现多实例，你就要添加多个 appId 。
 ``` java
 app_ids.add(“Your appId”);
 ```
-* 第二步：在 [Agora.io SDK](https://docs.agora.io/cn/2.0.2/download) 下载 Java 版信令 SDK，在示例项目根目录创建 lib 文件夹，lib 和 src 文件夹平级，解压后将其中的 lib 文件夹下的 jar 包和 libs-dep 下的 jar 包复制到本项目的 lib 文件下。
+* 然后在 [Agora.io SDK](https://docs.agora.io/cn/2.0.2/download) 下载 Java 版信令 SDK，在示例项目根目录创建 lib 文件夹，lib 和 src 文件夹平级，解压后将其中的 lib 文件夹下的 jar 包和 libs-dep 下的 jar 包复制到本项目的 lib 文件下。
 
-* 第三步：将示例项目以 gradle 项目导入开发工具中。
+* 最后将示例项目以 gradle 项目导入开发工具中。
 ## 运行环境
 
 * eclipse 或者 IntelliJ IDEA
