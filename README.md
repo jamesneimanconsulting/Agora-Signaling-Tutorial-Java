@@ -36,8 +36,8 @@ app_ids.add(“Your appId”);
 * 最后将示例项目以 gradle 项目导入开发工具中。
 ## 运行环境
 
-* eclipse 或者 IntelliJ IDEA
-* gradle
+* eclipse 4.7.1 或者 IntelliJ IDEA 2016
+* gradle 2.13
 
 ## 联系我们
 - 完整的 API 文档见 [文档中心](https://docs.agora.io/cn/)

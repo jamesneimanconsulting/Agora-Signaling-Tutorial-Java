@@ -36,8 +36,8 @@ app_ids.add ("Your appId");
 
 ## Operating environment
 
-* Eclipse or IntelliJ IDEA
-* Gradle
+* Eclipse 4.7.1 or IntelliJ IDEA 2016
+* Gradle 2.13
 
 ## Contact us
 - Complete API Documentation See [Documentation Center] (https://docs.agora.io/cn/)
