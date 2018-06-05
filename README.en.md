@@ -1,50 +1,50 @@
 # Agora Signaling Tutorial (JAVA)
 
-*其他语言版本： [简体中文](README.md)*
- 
-This open source sample project demonstrates how to quickly integrate the Agora Signaling SDK for a simple multi-instance Signaling or single-instance Signaling JAVA chat application.
+*Read this in other languages: [English](README.md)*
+ 
+这个开源示例项目演示了如何快速集成 Agora 信令 SDK 实现一个简单的多个 Signaling 实例或者单个 Signaling 实例 JAVA 聊天应用。
 
-The following features are included in this sample project:
+在这个示例项目中包含了以下功能：
 
-- Create multiple Signaling instances or single Signaling instances (the example project has two entries, SingleSignalObjectMain is the entrance of Signaling single instance and MulteSignalObjectMain2 is the entrance of Signaling multi-instance)
-- Create a target account and log in
-- Select chat mode (1. Peer-to-peer private chat 2. Into the channel, multi-person chat group to chat)
-- Type in the account name or channel name of the other party (decided by the chat mode of the previous step)
-- Show private chat chat history
-- Send channel message, receive channel message
-- Leave the chat group
-- Logout
+- 创建多个 Signaling 实例或者单个 Signaling 实例（该示例项目有两个入口，SingleSignalObjectMain 为 Signaling 单实例入口，MulteSignalObjectMain2 为 Signaling 多实例入口）
+- 创建目标账户账户，并进行登录 
+- 选择聊天方式（1.点对点双人私聊  2.进入频道，多人聊天组进行聊天）
+- 键入对方账户姓名或者频道名（由上一步的聊天方式选择决定）
+- 显示私聊的聊天记录
+- 发送频道消息，接收频道消息
+- 离开聊天组
+- 注销
 
-Agora Signaling SDK supports multiple platforms such as Android/IOS/Linux/MacOS/Web/Windows. You can see sample projects for each platform:
+Agora 信令 SDK 支持 Android/IOS/Linux/MacOS/Web/Windows 等多个平台，你可以查看对应各平台的示例项目:
 
-* Android: https://github.com/AgoraIO/Agora-Signaling-Tutorial-Android
-* IOS: https://github.com/AgoraIO/Agora-Signaling-Tutorial-iOS-Swift
-* Linux: https://github.com/AgoraIO/Agora-Signaling-Tutorial-Linux
+* Android: https://github.com/AgoraIO/Agora-Signaling-Tutorial-Android	 
+* IOS: https://github.com/AgoraIO/Agora-Signaling-Tutorial-iOS-Swift	
+* Linux: https://github.com/AgoraIO/Agora-Signaling-Tutorial-Linux	
 * MacOS: https://github.com/AgoraIO/Agora-Signaling-Tutorial-macOS-Swift
 * Web: https://github.com/AgoraIO/Agora-Signaling-Tutorial-Web
 * Windows https://github.com/AgoraIO/Agora-Signaling-Tutorial-Windows
 
 
-## Integration mode & run the sample program
-* Step 1: Register an account at [Agora.io] (https://dashboard.agora.io/cn/signup/) and create your own test project to get the appId
-Then select the Constant.java file in your test project, add appId to the set app_ids and if you want to implement multiple instances, you will need to add more than one appId.
-`` `java
-app_ids.add ("Your appId");
-`` `
-* Step 2: Download the Java Agora Signaling SDK at [Agora.io SDK] (https://docs.agora.io/cn/2.0.2/download), create the lib folder at the root of the sample project, after unpacking the file, copy the jar package under the Lib folder and the jar package under the libs-dep to the Lib file of this project.
-* Step 3: Import the sample project to your development tools as a gradle project.
+## 集成方式&运行示例程序
+* 首先在 [Agora.io 注册](https://dashboard.agora.io/cn/signup/) 注册账号，并创建自己的测试项目，获取到 appId
+选择到测试项目里的 Constant.java 文件，将 appId 添加到集合 app_ids 中，如果要实现多实例，你就要添加多个 appId 。
+``` java
+app_ids.add(“Your appId”);
+```
+* 然后在 [Agora.io SDK](https://docs.agora.io/cn/2.0.2/download) 下载 Java 版信令 SDK，在示例项目根目录创建 lib 文件夹，lib 和 src 文件夹平级，解压后将其中的 lib 文件夹下的 jar 包和 libs-dep 下的 jar 包复制到本项目的 lib 文件下。
 
-## Operating environment
+* 最后将示例项目以 gradle 项目导入开发工具中。
+## 运行环境
 
-* Eclipse 4.7.1 or IntelliJ IDEA 2016
-* Gradle 2.13
+* eclipse 4.7.1 或者 IntelliJ IDEA 2016
+* gradle 2.13
 
-## Contact us
-- Complete API Documentation See [Documentation Center] (https://docs.agora.io/cn/)
-- If you have a problem with integration, you can ask questions on [Developer Community] (https://dev.agora.io/cn/)
-- If you have pre-sales consulting questions, you can call 400 632 6626, or join the official Q group 12742516 questions
-- If after-sales technical support is required, you can submit a ticket at [Agora Dashboard] (https://dashboard.agora.io)
-- If you find a bug in the sample code, please feel free to submit [issue] (https://github.com/AgoraIO/Agora-Android-Tutorial-1to1/issues)
+## 联系我们
+- 完整的 API 文档见 [文档中心](https://docs.agora.io/cn/)
+- 如果在集成中遇到问题, 你可以到 [开发者社区](https://dev.agora.io/cn/) 提问
+- 如果有售前咨询问题, 可以拨打 400 632 6626，或加入官方Q群 12742516 提问
+- 如果需要售后技术支持, 你可以在 [Agora Dashboard](https://dashboard.agora.io) 提交工单
+- 如果发现了示例代码的 bug, 欢迎提交 [issue](https://github.com/AgoraIO/Agora-Android-Tutorial-1to1/issues)
 
-## Code License
+## 代码许可
 The MIT License (MIT).
