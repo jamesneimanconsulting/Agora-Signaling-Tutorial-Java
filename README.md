@@ -60,6 +60,7 @@ public class Constant {
 
 ```
 	apply plugin: 'eclipse'
+    
 ```
 
 	2. Run `eclipse` in your project:
