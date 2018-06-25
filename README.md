@@ -59,7 +59,7 @@ public class Constant {
 	1. Apply the Gradle plugin `eclipse` in the `build.gradle` file:
 
 ```
-	apply plugin: &quot;eclipse&quot;
+	apply plugin: "eclipse"
 
 ```
 
