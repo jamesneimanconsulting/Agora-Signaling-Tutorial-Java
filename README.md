@@ -5,7 +5,7 @@ This tutorial enables you to quickly get started with using a sample Java chat a
 
 This sample app demonstrates the basic Agora Signaling SDK features:
 
-- Create a single or multiple signaling instances
+- Create a peer-to-peer chat (single instance) or a channel chat (multiple instance)
 - Create a target account and log in
 - Select a chat mode (peer-to-peer private chat or multi-person group chat)
 - Find chat by user name (private chat) or channel name (group chat)
@@ -56,15 +56,15 @@ public class Constant {
 
 	**Eclipse**
 
-	1. Apply the Gradle plugin `eclipse` in the `build.gradle` file
+	1. Apply the Gradle plugin `eclipse` in the `build.gradle` file:
 
-		```
+```
 	apply plugin: 'eclipse'
 ```
 
-	2. Run `eclipse` in your project
+	2. Run `eclipse` in your project:
 
-		```
+```
 gradle eclipse
 ```
 
