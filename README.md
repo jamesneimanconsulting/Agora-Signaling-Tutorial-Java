@@ -59,8 +59,8 @@ public class Constant {
 	1. Apply the Gradle plugin `eclipse` in the `build.gradle` file:
 
 ```
-	apply plugin: 'eclipse'
-    
+	apply plugin: &quot;eclipse&quot;
+
 ```
 
 	2. Run `eclipse` in your project:
