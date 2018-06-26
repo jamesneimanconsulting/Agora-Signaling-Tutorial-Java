@@ -1412,7 +1412,7 @@ The `initChannelRecord()` method returns the list of channel messages using `cha
 
 #### Create the sendMsg() Method
 
-The sendMsg() method handles messaging between single users.
+The `sendMsg()` method handles messaging between single users.
 
 Retrieve the current session using `getSession()` and invoke its `messageInstantSend()` method. The `currentSession.messageInstantSend()` method contains two callbacks.
 
