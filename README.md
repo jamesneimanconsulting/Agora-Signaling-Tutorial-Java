@@ -3,8 +3,7 @@
 
 This tutorial describes how to use a sample Java chat application to develop requests to the Agora Signaling SDK.
 
-**With this sample app, you can:**
-single
+With this sample app, you can:
 - Create a peer-to-peer chat (private, single instance) or a channel chat (group, multiple instance)
 - Create a target account and login
 - Select a chat mode (peer-to-peer chat or channel chat)
