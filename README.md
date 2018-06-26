@@ -584,9 +584,9 @@ Initialize `needBreak` to `true`. If the `currentStatus` is a signal instance an
 
 The `printAllSignalObject()` method displays all the `Signal` objects for the application.
 
-- Create a new `StringBuilder` that contains the full list of signals. 
-- Loop through the `signalName` and append each signal to the `stringBuilder`.
-- When the loop is complete, return the resulting string using `stringBuilder.toString()`.
+1. Create a new `StringBuilder` that contains the full list of signals. 
+2. Loop through the `signalName` and append each signal to the `stringBuilder`.
+3. When the loop is complete, return the resulting string using `stringBuilder.toString()`.
 
 ``` Java
     private String printAllSignalObject() {
