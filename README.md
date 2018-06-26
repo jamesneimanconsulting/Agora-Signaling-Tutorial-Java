@@ -102,7 +102,7 @@ public class Constant {
 The sample application has two main signal Java classes:
 
 - [`SingleSignalObjectMain.java`](src/main/java/mainclass/SingleSignalObjectMain.java) for peer-to-peer (single instance) signaling 
-- [`MulteSignalObjectMain2.java`](src/main/java/mainclass/SingleSignalObjectMain.java) for channel (multiple instance) signaling.
+- [`MulteSignalObjectMain2.java`](src/main/java/mainclass/SingleSignalObjectMain.java) for channel (multiple instance) signaling
 
 Both classes implement the `WorkerThread` class, which contains the key code for the sample application. The following code is in the [`WorkerThread.java`](src/main/java/mainclass/WorkerThread.java) file of the sample application:
 
@@ -142,7 +142,7 @@ import tool.Constant;
 import tool.PrintToScreen;
 ```
 
-Import the Java classes. The classes are defined in the table below.
+Import the Java classes, which are defined in the table below.
 
 Class|Description
 ---|---
@@ -290,7 +290,7 @@ Class name|Mode constant
 
 The `init()` method is used to set the global variables for the application. After setting the `mainThreadStatus` to `true`, a new `Scanner` object is created.
 
-If the `timeOutFlag` is set to `false`, the user's list is initialized using `new HashMap<String, User>()`.
+If the `timeOutFlag` is set to `false`, the user list is initialized using `new HashMap<String, User>()`.
 
 If the current mode is `Constant.COMMAND_MULTI_SIGNAL_OBJECT`, the following global variables are initialized:
 
@@ -476,7 +476,9 @@ Read the next command using `in.nextLine()`:
 
 Initialize the local variables `appId` to `null` and `appIdneedBreak` to `true`.
 
-While the current status is `DialogueStatus.SIGNALINSTANCE` and `appIdneedBreak` is `true`, check the size of `app_ids`.
+Run a loop that checks the size of `app_ids` while the following condition is true:   
+current status is equal to `DialogueStatus.SIGNALINSTANCE` and 
+`appIdneedBreak` is equal to `true`
 
 - If the current app ID is less than the `app_ids` size, increment the current app ID using `Constant.CURRENT_APPID++` and set `appIdneedBreak` to `false`.
 - If the current app ID is greater than the `app_ids` size:
@@ -517,12 +519,12 @@ While the current status is `DialogueStatus.SIGNALINSTANCE` and `appIdneedBreak`
 
 This section describes how to create a new `Signal` using the `appId` and append it to the signal lists.
 
-- Create a new `Signal` object using `new Signal()` and display the app ID using `PrintToScreen.printToScreenLine()`.
-- Set the `currentSignalName` and add it to the signal name list using `signalName.add()`.
-- Append a new signal key-value pair for `currentSignalName` and `signal` using `signalNameAndSignalRecord.put()`.
-- Increment the signal count using `signalCount++`.
-- Display the `currentSignalName` and the list of signal objects for the application using `PrintToScreen.printToScreenLine()` and `printAllSignalObject()`.
-- Set `needBreak` to `false`.
+1. Create a new `Signal` object using `new Signal()` and display the app ID using `PrintToScreen.printToScreenLine()`.
+2. Set the `currentSignalName` and add it to the signal name list using `signalName.add()`.
+3. Append a new signal key-value pair for `currentSignalName` and `signal` using `signalNameAndSignalRecord.put()`.
+4. Increment the signal count using `signalCount++`.
+5. Display the `currentSignalName` and the list of signal objects for the application using `PrintToScreen.printToScreenLine()` and `printAllSignalObject()`.
+6. Set `needBreak` to `false`.
 
 ``` Java
                 Signal signal = new Signal(appId);
